@@ -1,31 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mirac <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/15 20:50:44 by mirac             #+#    #+#             */
-/*   Updated: 2024/08/15 21:22:44 by mirac            ###   ########.fr       */
+/*   Created: 2024/08/15 22:02:57 by mirac             #+#    #+#             */
+/*   Updated: 2024/08/15 22:06:35 by mirac            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char *c)
+void	ft_print_comb(void)
 {
-	int	i;
-
-	i = 0;
-	while (c[i] != '\0')
+	int	u;
+	int	d;
+	int	c;
+	
+	u = 48;
+	while (u < 55)
 	{
-		i++;
 	}
-	write(1, c, i);
 }
 
-/*int	main()
+int	main()
 {
-	ft_putchar("Lol");
+	ft_print_comb();
 	return (0);
-}*/
+}
